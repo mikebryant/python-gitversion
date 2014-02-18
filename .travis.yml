@@ -7,4 +7,8 @@ python:
   - "pypy"
 install:
   - pip install .
-script: python setup.py test
+  - pip install coveralls
+script:
+  - coverage run --source=gitversion setup.py test
+after_success:
+  - coveralls
