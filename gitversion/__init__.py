@@ -41,7 +41,7 @@ def determine_git_version(filename):
         raise NoVersionError()
 
     match = re.match(
-        '(?P<tag>.*)-(?P<commits>[0-9]+)-g(?P<hash>[0-9a-f]+)',
+        b'(?P<tag>.*)-(?P<commits>[0-9]+)-g(?P<hash>[0-9a-f]+)',
         bad_version
     )
     if match:
