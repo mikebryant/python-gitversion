@@ -35,14 +35,14 @@ def determine_git_version(filename):
         cwd=thisdir
     )
     proc.stderr.close()
-    bad_version = proc.stdout.read().strip()
+    bad_version = proc.stdout.read().decode('utf-8').strip()
     proc.stdout.close()
 
     if not bad_version:
         raise NoVersionError()
 
     match = re.match(
-        b'(?P<tag>.*)-(?P<commits>[0-9]+)-g(?P<hash>[0-9a-f]+)',
+        '(?P<tag>.*)-(?P<commits>[0-9]+)-g(?P<hash>[0-9a-f]+)',
         bad_version
     )
     if match:

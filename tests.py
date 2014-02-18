@@ -16,8 +16,8 @@ class GitVersionCase(unittest.TestCase):
     '''Test the correct versions are detected (and written, if applicable).'''
 
     versionstrings = {
-        'normal': b'3.0.34',
-        'extracommit': b'3.0.34+git.1.1bd773a',
+        'normal': '3.0.34',
+        'extracommit': '3.0.34+git.1.1bd773a',
     }
 
     def setUp(self):
