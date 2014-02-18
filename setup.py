@@ -10,4 +10,5 @@ setup(
     author='Mike Bryant',
     author_email='mike@mikebryant.me.uk',
     include_package_data=True,
+    test_suite='tests',
 )
