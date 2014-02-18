@@ -36,6 +36,7 @@ def determine_git_version(filename):
     )
     proc.stderr.close()
     bad_version = proc.stdout.read().strip()
+    proc.stdout.close()
 
     if not bad_version:
         raise NoVersionError()
