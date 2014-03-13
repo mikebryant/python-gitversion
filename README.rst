@@ -2,25 +2,22 @@
 python-gitversion
 =================
 
-.. image:: https://travis-ci.org/mikebryant/python-gitversion.png?branch=master
+.. image:: https://img.shields.io/travis/mikebryant/python-gitversion/master.png
     :target: https://travis-ci.org/mikebryant/python-gitversion
     :alt: Build Status Badge
-.. image:: https://coveralls.io/repos/mikebryant/python-gitversion/badge.png?branch=master
+.. image:: https://img.shields.io/coveralls/mikebryant/python-gitversion/master.png
     :target: https://coveralls.io/r/mikebryant/python-gitversion?branch=master
     :alt: Coverage Status Badge
 .. image:: https://landscape.io/github/mikebryant/python-gitversion/master/landscape.png
    :target: https://landscape.io/github/mikebryant/python-gitversion/master
    :alt: Code Health Badge
-.. image:: https://pypip.in/v/gitversion/badge.png
+.. image:: https://img.shields.io/pypi/v/gitversion.png
     :target: https://pypi.python.org/pypi/gitversion/
     :alt: Version Badge
-.. image:: https://pypip.in/d/gitversion/badge.png
+.. image:: https://img.shields.io/pypi/dm/gitversion.png
     :target: https://pypi.python.org/pypi/gitversion/
     :alt: Downloads Badge
-.. image:: https://pypip.in/wheel/gitversion/badge.png
-    :target: https://pypi.python.org/pypi/gitversion/
-    :alt: Wheel Status Badge
-.. image:: https://pypip.in/license/gitversion/badge.png
+.. image:: https://img.shields.io/badge/license-GPLv3+-blue.png
     :target: https://pypi.python.org/pypi/gitversion/
     :alt: License Badge
 
