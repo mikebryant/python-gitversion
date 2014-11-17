@@ -38,3 +38,5 @@ Usage
 
     from gitversion import rewritable_git_version
     __VERSION__ = rewritable_git_version(__file__)
+
+Your repository will need to have at least one tag in order for a version string to be generated.
